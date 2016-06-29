@@ -1,3 +1,56 @@
 header
   height: 450px
-  background: #ccc
+  background: $header-bg
+
+  .logo
+    +size(50px)
+    background: $logo-bg
+    float: left
+    margin: 10px 0 0 30px
+    border-radius: 50%
+
+    .initial
+      font:
+        weight: 700
+        size: 30px
+      text-align: center
+      color: white
+
+
+  nav
+    float: right
+    margin: 30px 30px 0 0
+    a
+      display: inline-block
+      text-transform: uppercase
+      margin-left: 20px
+      font:
+        weight: 700
+        size: 14px
+      color: rgba(0,78,102,0.7)
+      &:hover
+        color: $nav-links
+
+  .title
+    padding-top: 100px
+    text-transform: uppercase
+    text-align: center
+    margin-bottom: 20px
+    font:
+      weight: 700
+      size: 72px
+    clear: both
+    span
+      display: inline-block
+      padding: 0.2em 0.5em
+      border: 10px solid
+      letter-spacing: 0.1em
+  .subtitle
+    text-transform: uppercase
+    text-align: center
+    letter-spacing: 0.05em
+    color: $accent-color
+    line-height: 1
+    font:
+      weight: 300
+      size: 16px

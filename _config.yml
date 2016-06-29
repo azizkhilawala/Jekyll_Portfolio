@@ -1,5 +1,10 @@
-# Build settings
+#Site settings
+title: Aziz Khilawala
+description: Aspiring UX Designer and Full Stack Developer
+email: khilawalaaziz@gmail.com
 
+
+# Build settings
 markdown: kramdown
 permalink: pretty
 

@@ -1,0 +1,39 @@
+footer
+  background: $header-bg
+
+  .lockup
+    padding: 50px 30px
+    +clearfix
+    .logo
+      +size(50px)
+      background: $logo-bg
+      border-radius: 50%
+      float: left
+      .initial
+        font:
+          weight: 700
+          size: 30px
+        text-align: center
+        color: white
+
+  .content-wrap
+    float: left
+    margin-left: 30px
+    nav
+      a
+        display: inline-block
+        text-transform: uppercase
+        font:
+          weight: 700
+          size: 14px
+        color: rgba(0,78,102,0.7)
+        margin-right: 30px
+        &:hover
+          color: $nav-links
+    .copyright
+      margin: 0
+      text-transform: uppercase
+      color: $accent-color
+      font:
+        weight: 300
+        size: 13px

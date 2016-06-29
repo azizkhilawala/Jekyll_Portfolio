@@ -159,7 +159,7 @@ td, th {
   src: local("Open Sans Bold"), local("OpenSans-Bold"), url(//themes.googleusercontent.com/static/fonts/opensans/v8/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format("woff"); }
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
-  color: #BD5248;
+  color: #FF5F2E;
   font-weight: bold; }
 
 .gigantic {
@@ -205,12 +205,12 @@ hr {
   height: 0; }
 
 a {
-  color: #BD5248;
+  color: #FF5F2E;
   text-decoration: none;
   outline: 0; }
 
 a:hover, a:focus {
-  color: #d89993; }
+  color: #ffad94; }
 
 ::selection {
   background: #FFF498; }
@@ -238,4 +238,87 @@ body {
 
 header {
   height: 450px;
-  background: #ccc; }
+  background: #fcbe32; }
+  header .logo {
+    height: 50px;
+    width: 50px;
+    background: #e1eef6;
+    float: left;
+    margin: 10px 0 0 30px;
+    border-radius: 50%; }
+    header .logo .initial {
+      font-weight: 700;
+      font-size: 30px;
+      text-align: center;
+      color: white; }
+  header nav {
+    float: right;
+    margin: 30px 30px 0 0; }
+    header nav a {
+      display: inline-block;
+      text-transform: uppercase;
+      margin-left: 20px;
+      font-weight: 700;
+      font-size: 14px;
+      color: rgba(0, 78, 102, 0.7); }
+      header nav a:hover {
+        color: #004e66; }
+  header .title {
+    padding-top: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 72px;
+    clear: both; }
+    header .title span {
+      display: inline-block;
+      padding: 0.2em 0.5em;
+      border: 10px solid;
+      letter-spacing: 0.1em; }
+  header .subtitle {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FF5F2E;
+    line-height: 1;
+    font-weight: 300;
+    font-size: 16px; }
+
+footer {
+  background: #fcbe32; }
+  footer .lockup {
+    padding: 50px 30px; }
+    footer .lockup:after {
+      content: "";
+      display: table;
+      clear: both; }
+    footer .lockup .logo {
+      height: 50px;
+      width: 50px;
+      background: #e1eef6;
+      border-radius: 50%;
+      float: left; }
+      footer .lockup .logo .initial {
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+        color: white; }
+  footer .content-wrap {
+    float: left;
+    margin-left: 30px; }
+    footer .content-wrap nav a {
+      display: inline-block;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 14px;
+      color: rgba(0, 78, 102, 0.7);
+      margin-right: 30px; }
+      footer .content-wrap nav a:hover {
+        color: #004e66; }
+    footer .content-wrap .copyright {
+      margin: 0;
+      text-transform: uppercase;
+      color: #FF5F2E;
+      font-weight: 300;
+      font-size: 13px; }
